@@ -7,7 +7,7 @@ export default class App extends React.Component {
     hits: [],
     page: 1,
     searchQuery: '',
-    isLoading: true,
+    isLoading: false,
     showLoadMoreBtn: false,
     error: null,
   };
