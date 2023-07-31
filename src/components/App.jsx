@@ -70,12 +70,9 @@ export default class App extends React.Component {
   };
 
   handleLoadMore = () => {
-    this.setState(
-      prevState => ({
-        page: prevState.page + 1,
-      }),
-      this.fetchImages
-    );
+    this.setState(prevState => ({
+      page: prevState.page + 1,
+    }));
   };
 
   render() {
